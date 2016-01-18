@@ -1,0 +1,26 @@
+#container{
+	height:100%;
+	white-space: nowrap;
+}
+#home1 {
+    position: relative;
+}
+.iblock {
+    display: inline-block;
+    vertical-align: top;
+}
+.w30 {
+    width: 30%;
+}
+.w40 {
+    width: 40%;
+}
+.h100 {
+    height: 100%;
+}
+.w300 {
+    width: 300px;
+}
+.h100nophone {
+    height: 100%;
+}

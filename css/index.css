@@ -1,0 +1,524 @@
+html{
+	height: 100%;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	overflow-x: scroll;
+	background-color: #f0f1ec;
+}
+.container{
+	padding: 0px;
+	position: relative;
+	overflow: auto;
+	height: 100%;
+}
+.box-above{
+	height: 30%;
+}
+.row-fluid{
+	overflow-x:scroll;
+	white-space:nowrap;
+}
+.row-fluid{
+	 display: inline-block;
+}
+
+#home{
+	background-color: #f0f1ec;
+	margin: 0px;
+}
+#home .h100{
+	height: 94%;
+}
+#home .inner{
+	margin-top: 40px;
+}
+.h33{
+	height: 33.33%;
+}
+.h50{
+	height: 50%;
+}
+.middle{
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.middle-active{
+	display: none;
+	z-index: 1000;
+}
+.inner{
+	margin: 0 auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tpb-max-width{
+	margin: auto;
+	text-align: center;
+}
+.logo-mobile{
+	display: none;
+}
+
+.tpb-max-width .col-md-12{
+	margin: 0px;
+}
+.logo{
+	margin: 0 auto;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.logo img{
+	margin: auto;
+}
+.buttons{
+	padding-bottom: 30px;
+	display: none;
+}
+.buttons img{
+	margin: auto;
+	cursor: pointer;
+}
+.buttons img:hover{
+	opacity: 0.8;
+}
+.buttons-active{
+	margin: auto;
+	padding-bottom: 30px;
+}
+.buttons-active ul{
+	padding: 0;
+	margin-bottom: 5px;
+}
+.buttons-active ul li{
+	list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 15px;
+}
+.buttons-active ul li a img:hover{
+	opacity: 0.7;
+}
+.footer-desktop{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    height: 5%;
+    padding-left: 40px;
+}
+.footer-desktop .col-xs-6{
+	padding: 0px;
+}
+.footer-mobile{
+	display: none;
+}
+.footer-mobile .logo-tpb{
+    text-align: center;
+    display: block;
+    float: none!important;
+}
+.row-fluid{
+	 white-space: nowrap;
+}
+.row-fluid .col-lg-3{
+	 display: inline-block;
+}
+.como-jugar{
+	background-color: #F0F1EC;
+	height: 100%;
+}
+.como-jugar:hover{
+	background-color: #f6503d!important;
+}
+.como-jugar:hover .titulo{
+	color: #FFFFFF;
+}
+.como-jugar:hover .num-titulo{
+	color: #FFFFFF;
+}
+
+.como-jugar-max-width{
+    padding-top: 50px;
+}
+.h100{
+	height: 100%;
+	display: table;
+	margin: auto;
+}
+.como-jugar .middle{
+	vertical-align: middle;
+	display: table-cell;
+}
+.buttons-0-1{
+	padding-top: 40px;
+}
+.buttons-0-1 a:hover{
+	cursor: default;
+}
+.como-jugar-max-width h1.titulo{
+	color: #828282;
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+}
+.como-jugar-max-width strong.num-titulo{
+	color: #f6503d;
+	margin-right: 20px;
+	font-weight: 500;
+}
+.como-jugar img{
+	margin: auto;
+}
+/*.como-jugar img:hover{
+	opacity: 0.7;
+}*/
+.naipes{
+	background-color: #f0f1ec;
+	height: 100%;
+	padding: 0px;
+}
+.h100 .row{
+    margin: 0px;
+    vertical-align: middle;
+    display: table-cell;
+}
+.h100.carta{
+	display: table-cell;
+}
+.carta{
+	padding: 0px;
+}
+.carta.dos{
+	padding: 0px;
+}
+.carta .miscelanea img{
+    cursor: pointer;
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+}
+.carta .middle img:hover{
+	opacity: 0.5;
+}
+.pedir-mazo{
+	background-color: #F0F1EC; 
+	height: 100%;
+	height: 100%;
+	display: table;
+	padding: 0px;
+}
+
+.pedir-mazo .h100 {
+	margin: 0; 
+    width: 100%;
+}
+.pedir-mazo .middle {
+	vertical-align: middle;
+	display: table-cell;
+}
+.pedir-mazo img{
+	margin: auto;
+	cursor: pointer;
+}
+.pedir-mazo img:hover {
+	opacity: 0.7;
+}
+.pedir-mazo:hover{
+	background-color: #f6503d!important;
+}
+.pedir-mazo:hover .titulo{
+	color: #FFFFFF;
+}
+.pedir-mazo:hover .num-titulo{
+	color: #FFFFFF;
+}
+.pedir-mazo:hover .buttons-0-1{
+	display: none;
+}
+.pedir-mazo:hover .middle-active-mazo{
+	display: block;
+}
+.middle-active-mazo{
+	display: none;
+	margin-top: 50px;
+}
+#form-contact{
+}
+.form-group {
+	margin-bottom: 0px;
+}
+.form-control{
+    border-bottom: 2px #faa900 solid;
+    border-left: 0px!important;
+    border-top-color: none!important;
+    border-right: 0px!important;
+    border-radius: inherit;
+    border-top: 0px!important;
+    height: 59px;
+    font-size: 21px;
+    text-align: center;
+    background-color: rgb(246, 80, 61);
+    color: #ffffff!important;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.0);
+    letter-spacing: 0.7px;
+}
+input::-webkit-input-placeholder { 
+	color: #ffffff!important; 
+}
+input:-moz-placeholder { 
+	color: #ffffff!important; 
+}
+input::-moz-placeholder { 
+	color: #ffffff!important; 
+}
+input:-ms-input-placeholder { 
+	color: #ffffff!important; 
+}
+
+#borderimg1 { 
+/*    border: 10px solid transparent;
+	padding: 15px;
+	-webkit-border-image: url(imagenes/image-bottom.png) 30 round; /* Safari 3.1-5 */
+	-o-border-image: url(imagenes/image-bottom.png) 30 round; /* Opera 11-12.1 */
+	border-image: url(imagenes/image-bottom.png) 30 round;*/
+}
+.form-control:focus{
+	border-color: #faa900;
+	background-color: #faa900;
+	color: #f6503d!important;
+	-webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0),0 0 0px rgba(0,0,0,0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0),0 0 0px rgba(0,0,0,.0);
+}
+.contenedor-formulario .btn{
+    background-image: linear-gradient(to bottom,#faa900 0,#faa900 100%);
+    border-color: #faa900;
+    color: #f6503d;
+    max-width: 110px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: #faa900;
+    letter-spacing: 0.7px;
+}
+.contenedor-formulario .btn-primary{
+	text-shadow: none;
+	box-shadow: none!important;
+}
+.btn:active:focus, .btn:focus{
+    outline: 1px auto -webkit-focus-ring-color;
+    outline-offset: 3px;
+    outline-color: #faa900;
+    outline-style: dotted;
+    opacity: 0.7;
+}
+#exampleInputName2{
+	color: ##DAE909;
+}
+.descargar{
+	background-color: #F0F1EC;
+	height: 100%;
+	height: 100%;
+	display: table;
+}
+.descargar .middle {
+	vertical-align: middle;
+	display: table-cell;
+}
+.descargar img{
+	margin: auto;
+	cursor: pointer;
+}
+.descargar img:hover {
+	opacity: 0.7;
+}
+.descargar:hover{
+	background-color: #f6503d!important;
+}
+.descargar:hover .titulo{
+	color: #FFFFFF;
+}
+.descargar:hover .num-titulo{
+	color: #FFFFFF;
+}
+
+
+
+/*
+	MARCE
+*/
+
+body{
+	height: 100%;
+}
+.panel-container{
+	height: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.panel{
+	float: left;
+	height: 100%;
+	border: none;
+	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.0);
+    box-shadow: 0 0px 0px rgba(0,0,0,.0);
+}
+.panel:nth-child(1){
+	background: limegreen;
+}
+.panel:nth-child(2){
+	background-color: #F0F1EC;
+	border-radius: 0px;
+    margin: 0;
+}
+.panel:nth-child(3){
+    background-color: #f0f1ec;
+    height: 100%;
+    padding: 0px;
+}
+.panel:nth-child(4){
+    background-color: #f0f1ec;
+    height: 100%;
+    padding: 0px;
+}
+.panel:nth-child(5){
+    background-color: #f0f1ec;
+    height: 100%;
+    padding: 0px;
+}
+.panel:nth-child(6){
+    background-color: #f0f1ec;
+    height: 100%;
+    padding: 0px;
+}
+.panel:nth-child(7){
+    background-color: #f0f1ec;
+    height: 100%;
+    padding: 0px;
+}
+.panel:nth-child(8){
+    background-color: #F0F1EC;
+    border-radius: 0px;
+    margin: 0;
+}
+.panel:nth-child(9){
+    background-color: #F0F1EC;
+    border-radius: 0px;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 340px){
+#home .h100{
+    height: 90%;
+}
+#home .inner {
+    margin-top: 70px;
+}	
+}
+
+
+@media screen and (max-width: 370px){
+.buttons-active ul li{
+	margin: 0px 10px;
+}
+}
+
+@media screen and (max-width: 400px){
+#home ul li a img{
+	width: 40px;
+}
+#home .buttons img{
+	width: 40px;
+}
+.como-jugar img{
+	width: 40px;
+}
+.pedir-mazo img{
+	width: 40px;
+}
+.descargar img{
+	width: 40px;
+}
+}
+
+
+@media screen and (max-width: 450px){
+.buttons-active{
+	padding-left: 0px;
+    padding-right: 0px;
+}
+.p320{
+	padding: 0px;
+}
+}
+
+@media screen and (max-width: 470px){
+.panel{
+	width: 11.11%;
+}
+}
+
+@media screen and (min-width: 470px) and (max-width: 990px){
+.panel{
+		width: 10%;
+}
+.panel:nth-child(1){
+		width: 20%;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px){
+.footer-mobile{
+	display: block;
+}
+.footer-desktop{
+	display: none;
+}	
+}
+
+@media screen and (min-width: 990px){
+.panel{
+	width: 8.33%;
+}
+.panel:nth-child(1){
+	width: 33%;
+}
+}
+
+@media screen and (min-width: 471px) and (max-width: 549px){
+.como-jugar-max-width h1.titulo {
+	font-size: 25px;
+}
+}
+
+@media screen and (min-width: 550px) and (max-width: 600px){
+.como-jugar-max-width h1.titulo {
+	font-size: 28px;
+}
+}
+
+@media screen and (min-width: 990px) and (max-width: 1080px){
+.como-jugar-max-width h1.titulo {
+	font-size: 26px;
+}
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1180px){
+.como-jugar-max-width h1.titulo {
+	font-size: 28px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
